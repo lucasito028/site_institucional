@@ -4,34 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Kids Brasil - Site Sobre</title>
+    <title>Kids Brasil - Site Institucional</title>
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
     
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
 </head>
+
 <body>
 
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
             <div class="container">
+
                 <a class="navbar-brand" href="#">Kids Brasil</a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#lojas">Lojas Físicas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#politica">Política de Trocas e Devoluções</a></li>
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#instagram">Instagram</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lojas">Lojas Físicas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -41,47 +56,38 @@
     <main>
 
         <section id="sobre" class="bg-light py-5">
+
             <div class="container">
                 <h1 class="display-4 text-center mb-5">Sobre Nós</h1>
-        
+
+                <img src="https://lh5.googleusercontent.com/p/AF1QipMg0OXwM2XgAi_tI3Mgtem-FINHVmusaiVlz3A-=w408-h306-k-no"
+                    alt="Imagem Representativa" class="img-fluid rounded">
+                
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="https://lh5.googleusercontent.com/p/AF1QipMg0OXwM2XgAi_tI3Mgtem-FINHVmusaiVlz3A-=w408-h306-k-no" alt="Imagem Representativa" class="img-fluid rounded">
+                        <p class="lead">Nossa história começou em [ano de fundação], 
+                            com a missão de oferecer roupas infantis de alta qualidade e estilo. D
+                    esde então, temos nos dedicado a proporcionar às crianças um guarda-roupa cheio de cores, conforto e diversão.<
                     </div>
                     <div class="col-lg-6">
-                        <p class="lead">Nossa história começou em [ano de fundação], com a missão de oferecer roupas infantis de alta qualidade e estilo. Desde então, temos nos dedicado a proporcionar às crianças um guarda-roupa cheio de cores, conforto e diversão.</p>
-                        <p class="lead">Nosso compromisso é criar moda infantil que inspire a criatividade e celebre a infância. Trabalhamos com designers talentosos e materiais premium para garantir que cada peça seja única e duradoura.</p>
+                        <p class="lead">Nosso compromisso é criar moda infantil que inspire a 
+                            criatividade e celebre a infância. Trabalhamos com designers talentosos e materiais premium para garantir que cada peça seja única e duradoura.</p>
                     </div>
                 </div>
             </div>
+
         </section>
         
         <section id="instagram">
             <h1>Instagram</h1>
-            <div id="instafeed"></div>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
-
-            <script type="text/javascript">
-                var feed = new Instafeed({
-                    accessToken: 'IGQWRQejJWWThZAQ19OUlNuWTlLRVVMakw0TjZAPRElrYmY4aWRqMWxpVHZAZAQU8tZAlhzTTRMa0xuaVZAEN21aU2d6REFzbXZAlcGVENy0xaXUwbkE1SWZAJTVE2ZAkRqOXRnZAmtYTWZAzTFc4VEt0VDM1TEZAjaWpiX3ZAnTHMZD',
-                    limit: 6,  // Número de fotos a serem exibidas
-                    resolution: 'standard_resolution',
-                    template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
-                });
-                feed.run();
-            </script>
         </section>
 
         <section id="lojas">
-            <h1>Lojas Físicas</h1>
+            <h1>Lojas Fisicas</h1>
         </section>
 
         <section id="contato">
             <h1>Contato</h1>
-        </section>
-
-        <section id="politica">
-            <h1>Política de Trocas e Devoluções</h1>
         </section>
 
     </main>
@@ -94,7 +100,10 @@
         <!-- Adicione aqui informações adicionais, links, etc., no rodapé -->
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous">
+    </script>
 
 </body>
 </html>
